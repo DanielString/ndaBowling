@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.flex-contain {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background-color: aqua;
+  border: 3px solid darkblue;
+  padding: 10px;
+}
+
+.flex-item:nth-of-type(even) {
+  background-color: black;
+  color: red;
+}
+
+.header {
+  background-color: goldenrod;
+  color: ivory;
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+html {
+  background-color: gold;
+}
+body {
+  background-image: url(images/istockphoto-1255972670-612x612.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 5px black,
+              -2px -2px 5px black;
+}
+
+.mainnav ul li {
+  background-color: darkblue;
+}
+.mainnav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px black;
+  transition: all 0.5s;
+  color: ivory;
+  text-decoration: none;
+  padding: 5px;
+}
+.mainnav ul li a:hover, .mainnav ul li a:active {
+  background-color: ivory;
+  color: darkblue;
+  text-shadow: 1px 1px 1px black;
+}
+.teampic {
+  border: 10px solid darkblue;
+  border-radius: 30%;
+  box-shadow: 3px 3px 5px black;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  background-color: darkblue;
+  color: ivory;
+  text-shadow: 1px 1px 3px black;
+}
+
+button {
+  display: block;
+  background-color: gold;
+  box-shadow: 2px 2px 2px black;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  border: 2px solid navy;
+  border-radius: 20px;
+  margin: 10px auto 0 auto;
+}

@@ -1,0 +1,40 @@
+body {
+  width: 95%;
+  max-width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header img {
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mainnav ul {
+  display: flex;
+  flex-flow: row no wrap;
+  margin-bottom: 15px;
+}
+.mainnav li {
+  flex: 1 1 auto;
+}
+
+.mainnav ul li a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.teampic {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
